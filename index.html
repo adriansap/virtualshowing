@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Creating Search Bar using HTML
+        CSS and Javascript
+    </title>
+
+    <!-- linking the stylesheet(CSS) -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <CENTER>
+        <h1 id="header1">VIRTUAL SHOWING</h1>
+    </CENTER>
+    <!-- input tag -->
+    <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Town, Address or Price">
+
+    <!-- ordered list -->
+    <ol id='list'>
+        <a href="https://canvas.io/viewer/Mw2R1JDr">
+            <li class="animals">721 Westfield Ave, Elizabeth, NJ $500 per month </li>
+        </a>
+
+        <li class="animals">22 Morristown Road, Elizabeth, NJ / (5 bedroom) $2800 per month </li>
+        <li class="animals">612 Ripley Street, Westfield, NJ / (3 bedroom) $3000 per month</li>
+        <li class="animals">113 Hunt Avenue, Union, NJ (3 bedroom) $2200 per month</li>
+        <li class="animals">1574 Clinton Place, Hillside, NJ (2 bedroom) $2000 per month</li>
+        <li class="animals">146 Bellevue Street, Elizabeth, NJ (3 bedroom) $1800 per month</li>
+
+    </ol>
+
+    <!-- linking javscript -->
+    <script src="./animals.js"></script>
+</body>
+
+</html>
