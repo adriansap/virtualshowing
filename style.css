@@ -6,6 +6,7 @@
 #headerlinks {
     font-family: 'Share Tech', sans-serif;
     color:grey;
+    background-color: gainsboro;
 }
 
 .animals {
@@ -15,16 +16,27 @@
 
 }
 
-body {
 
-}
+#searchbar{ 
+    margin-left: 15%; 
+    padding:15px; 
+    border-radius: 10px; 
+  } 
 
-.searchbar {
-    border: 1px solid grey;
-    border-radius: 5px;
-    height: 20px;
-    width: 50%;
-    padding: 2px 23px 2px 30px;
-    outline: 0;
-    background-color: #f5f5f5;
-  }
+  input[type=text] { 
+     width: 30%; 
+     -webkit-transition: width 0.15s ease-in-out; 
+     transition: width 0.15s ease-in-out; 
+  } 
+
+  /* When the input field gets focus, 
+       change its width to 100% */
+  input[type=text]:focus { 
+    width: 70%; 
+  } 
+
+ #list{ 
+   font-size:  1.5em; 
+   margin-left: 90px; 
+  } 
+
